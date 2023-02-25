@@ -1,0 +1,28 @@
+body {
+    position: relative;
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ddd url(./img/bg_weather.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .entry {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: rgb(255 255 255 / 16%);
+    border-radius: 10px;
+  }
+
+.form-control {
+    background-color: rgb(255 255 255 / 16%);
+}
+  .form-control:focus {
+    color: #495057;
+    background-color: rgb(255 255 255 / 16%);
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
